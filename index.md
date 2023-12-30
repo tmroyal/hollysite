@@ -2,6 +2,8 @@ Holly Bee Gardens is a small, family-owned business in Gainesville, Florida.
 
 We specialize in organic, sustainable plants and flowers.
 
+See our [events page](events.md) for upcoming events.
+
 <hr/>
 
 <iframe id="eye_candy" width="315" height="560"
@@ -10,4 +12,3 @@ title="YouTube video player"
 frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 allowfullscreen></iframe>
-
