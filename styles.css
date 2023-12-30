@@ -7,8 +7,15 @@ body {
     padding: 0;
 }
 
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 h1 {
     font-family: 'Dancing Script', cursive;
+
     font-size: 3em;
     color: #f7f7f7;
     text-align: center;
@@ -58,7 +65,7 @@ menu ul li a:hover {
 /* readable font with light background */
 main {
     /* simple sans-serif font */
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 1.2em;
     color: #f7f7f7;
     text-align: center;
@@ -66,19 +73,17 @@ main {
     background-color: #3b4d3b;
     padding-bottom: 1em;
     /* rounded corners */
-    border-radius: 1em 1em 0 0;
+    border-radius: 0.5em 0.5em 0 0;
     /* set max width */
     max-width: 70%;
     /* center within parent */
     margin-left: auto;
     margin-right: auto;
-
+    min-height: 100%;
     /* subtle top border */
 }
 
-main
-/* center video */
-iframe#eye_candy {
+main iframe#eye_candy {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -91,4 +96,64 @@ hr {
   border-top: 1px solid #aaa4;
   height: 1px;
   margin: 1em 10%;
+}
+
+main#events {
+  text-align: left;
+  padding: 3em 3em;
+
+}
+
+main#events h2 {
+  text-align: left;
+}
+
+main#events h3,
+main#events h4,
+main#events h5,
+main#events h6 
+{
+    text-align: left;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #f7f7f7;
+    margin-top: 0;
+    margin-bottom: 0;
+    /* border bottom gradient */
+    border-bottom: 1px solid #f7f7f788;
+    padding: 0.2em 0 0.1em 0;
+    max-width: 66%;
+}
+
+main#events p + h3 {
+  padding-top: 1.5em;
+}
+
+main#events p {
+  max-width: 66%;
+  margin-top: 0.4em;
+}
+
+a, a:visited {
+  font-weight: 100;
+  color: #f7f7f7;
+  text-decoration: underline;
+}
+
+a:hover, a:active {
+  color: #a7ffa7;
+}
+
+@media (max-width: 450px) {
+  main iframe#eye_candy {
+    width: 250px;
+    height: 444px;
+  }
+
+  main#events p, 
+  main#events h3, 
+  main#events h4, 
+  main#events h5, 
+  main#events h6 {
+    max-width: 100%;
+  }
 }

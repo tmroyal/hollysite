@@ -1,4 +1,6 @@
-Holly Bee Gardens is a small, family-owned business in Gainesville, Florida.<br/><br/>We specialize in organic, sustainable plants and flowers.
+Holly Bee Gardens is a small, family-owned business in Gainesville, Florida.
+
+We specialize in organic, sustainable plants and flowers.
 
 <hr/>
 
